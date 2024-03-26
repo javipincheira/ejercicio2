@@ -1,0 +1,127 @@
+/* reset */ 
+*{
+    margin: 0;
+    padding: 0; 
+    border: 0;
+}
+body {
+    text-align: center;
+    color: #000f08;
+    font-family: "Open Sans";
+    }
+    nav {
+        background-color: #000f08;
+        color: white;
+        text-align: left;
+        padding: 10px 30px;
+        font-size: 15px;
+        }
+        #icono{
+            width: 70px;
+        }
+        
+        #icono svg{
+            fill: white;
+        }
+        
+        nav li {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 60px;
+        }
+        nav li a {
+        color: white;
+        text-decoration: none;
+        }
+        header {
+            text-align: right;
+            background-image: url("../img/bg-hero.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            padding: 100px;
+            text-shadow: 0px 3px 6px #00000080;
+            }
+            header h1 {
+            font-size: 40px;
+            font-weight: 900;
+            }
+            header h2 {
+            font-size: 30px;
+            font-weight: 400;
+            }
+
+            /*ubicacion*/
+            #ubicacion {
+                padding: 150px;
+                }
+                #ubicacion h2 {
+                font-size: 45px;
+                margin: 40px 0px 20px 0px;
+                }
+                #ubicacion p {
+                font-size: 25px;
+                }
+                .pagigina2{
+                justify-content: center;
+                display: flex;
+                display: inline-block;
+                padding-top: 20px;
+                padding-bottom: 30px;
+
+                }
+                #imagen1{
+                    display: inline-block;
+                    padding-bottom: 40px;
+                }
+                #imagen2 { 
+                    display: inline-block;
+                    padding-bottom: 40px;
+                }
+                #imagen3{
+                display: inline-block;
+                padding-bottom: 40px;
+
+                }
+                #imagen1 h2{
+                    align-items: center;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                }
+                .pagigina2 h2{
+                    align-items: center;
+                    text-align: center;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                }
+                #textoeventos{
+                    padding-top: 40px;
+                    padding-bottom: 40px;
+                }
+                *Proxima-Charla*/
+#Proxima-Charla{
+    background: #a4452c;
+    padding: 100px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+#Proxima-Charla .wrapper {
+    width: 800px;
+    margin: auto;
+}
+
+.wrapper img {
+    width: 25%;
+}
+
+.wrapper .texto {
+    width: 70%;
+    margin-left: 4%;
+}
+
+.wrapper img, .texto {
+    display: inline-block;
+    vertical-align: middle;
+}
